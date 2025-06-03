@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Dancing+Script:wght@400..700&family=Freckle+Face&family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kalam:wght@300;400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Questrial&family=Ruda:wght@400..900&family=Space+Grotesk&family=Special+Gothic+Expanded+One&display=swap');
+
+.barra-pesquisa {
+    display: flex;
+    justify-content: center;
+    padding-top: 3vh;
+
+}
+.pesquisa {
+    display: flex;
+    border: 0.7vh solid black;
+    width: 80vh;
+    border-radius: 10vh;
+    height: 7vh;
+}
+
+input {
+    border: none;
+    background-color: transparent;
+}
+
+input:focus {
+    outline: none;
+}
+
+.serviço {
+    width: 25vh;
+}
+
+.onde {
+    width: 20vh;
+}
+
+.pesquisa-serviço {
+    padding-left: 2.5vh;
+    color: #9a0101;
+    font-weight: 600;
+    padding-top: 1.5vh;
+}
+
+
+.pesquisa-onde {
+    border-left: 0.5vh solid black;
+    padding-left: 2vh;
+    color: #9a0101;
+    font-weight: 600;
+    padding-top: 1.9vh;
+}
+
+
+button {
+    display: flex;
+    color: #ffffff;
+    font-weight: 600;
+    background-color: #b30e0e;
+    border-radius: 10vh;
+    border: none;
+    height: 5vh;
+    width: 14vh;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vh;
+    margin-right: 0.8vh;
+}
+
+.procurados {
+    display: flex;
+    flex-direction: row;
+    gap: 10vh;
+    padding-top: 8vh;
+    justify-content: center;
+}
+
+.procurados-coluna {
+    display: flex;
+    flex-direction: column;
+    gap: 6vh;
+}
+
+.box {
+    background-color: white;
+    border: 1.5vh solid #3b383a;
+    border-radius: 5vh;
+    width: 70vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
+}
+
+.título {
+    font-family: "Ruda", sans-serif;
+    font-size: 3.5vh;
+}
+
+.box p {
+    color: #9a0101;
+    font-size: 2.6vh;
+}
+
+.ultima-linha {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tipo-trabalho {
+    display: flex;
+    align-items: center;
+    gap: 2vh;
+}
+
+.computer {
+    height: 4.7vh;
+}
+
+.building {
+    height: 4vh;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Match Business</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="stylesheet" href="../static/homepage.css">
+</head>
+<body>
+    <header class="cabeçalho">
+        <nav class="navbar">
+            <div class="navbar-logo">
+                <img src="../static/images/logo2.0.png" alt="logo">
+                <h1>Match Business</h1>
+            </div>
+            <div class="navbar-buttons">
+                <a href="{{ url_for("login") }}" class="button-login">Login</a>
+                <a href="{{ url_for("cadastro") }}" class="button-cadastro">Cadastro</a>
+            </div>
+        </nav>
+        <nav class="barra-pesquisa">
+            <div class="pesquisa">
+                <div class="pesquisa-serviço">
+                    <label for="serviço">Serviço: </label>
+                    <input class="serviço" type="text" id="serviço" name="serviço">
+                </div>
+                <div class="pesquisa-onde">
+                    <label for="onde">Onde: </label>
+                    <input class="onde" type="text" id="onde" name="onde">
+                </div>
+                <div>
+                    <button type="submit">Procurar</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="procurados">
+        <section class="procurados-coluna">
+            <div class="box">
+                <h3 class="título">Especialista em Limpeza Empresarial</h3>
+                <p>Empresa: Jan Pro Brasil</p>
+                <p>Campinas - SP,  à 81,11 km de você</p>
+                <p>R$ 15,00 à 20,00 a hora (Bruto)</p>
+                <div class="ultima-linha">
+                    <div class="tipo-trabalho">
+                        <p>Presencial</p>
+                        <img class="building" src="../static/images/building.png" alt="building">
+                    </div>
+                    <button type="submit">Contratar</button>
+                </div>
+            </div>
+            <div class="box">
+                <h3 class="título">Desenvolvedor de Sistemas - Sênior</h3>
+                <p>Empresa: Banco Safra</p>
+                <p>São Paulo - SP,  à 20, 8 km de você</p>
+                <p>R$ 80,00 à 100,00 a hora (Bruto)</p>
+                <div class="ultima-linha">
+                    <div class="tipo-trabalho">
+                        <p>Presencial</p>
+                        <img class="building" src="../static/images/building.png" alt="building">
+                    </div>
+                    <button type="submit">Contratar</button>
+                </div>
+            </div>
+        </section>
+        <section class="procurados-coluna">
+            <div class="box">
+                <h3 class="título">Desenvolvedor de Sistemas - Sênior</h3>
+                <p>Empresa: Banco Safra</p>
+                <p>São Paulo - SP,  à 20, 8 km de você</p>
+                <p>R$ 80,00 à 100,00 a hora (Bruto)</p>
+                <div class="ultima-linha">
+                    <div class="tipo-trabalho">
+                        <p>Presencial</p>
+                        <img class="computer" src="../static/images/computer.png" alt="computer">
+                    </div>
+                    <button type="submit">Remoto</button>
+                </div>
+            </div>
+            <div class="box">
+                <h3 class="título">Especialista em Administração</h3>
+                <p>Empresa: QUATTRUS</p>
+                <p>Porto Alegre - RS,  à 868,85 km de você</p>
+                <p>R$ 131,00 à 491,00 a hora (Bruto)</p>
+                <div class="ultima-linha">
+                    <div class="tipo-trabalho">
+                        <p>Remoto</p>
+                        <img class="computer" src="../static/images/computer.png" alt="computer">
+                    </div>
+                    <button type="submit">Contratar</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>

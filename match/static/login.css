@@ -1,0 +1,103 @@
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 10px solid rgb(61, 61, 61); 
+    border-radius: 50px;
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%; 
+    max-width: 400px; 
+    display: flex;
+    flex-direction: column;
+    align-items: stretch; 
+    padding: 2em; 
+    box-sizing: border-box; 
+}
+
+h2 {
+    font-size: 6vh;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 1.5em;
+    line-height: 1.2;
+    
+}
+
+ul {
+    list-style-type: none;
+    padding: 0; 
+    margin: 0; 
+    display: flex;
+    flex-direction: column; 
+    gap: 1em; 
+}
+
+li {
+    text-align: left;
+    transform: translateX(0%); 
+    margin: 0; 
+    font-size: 1.1em; 
+}
+
+input[type="text"] , input[type="password"] {
+    text-align: left;
+    height: auto;
+    padding: 0.75em 1em;
+    font-size: 1em;
+    border: 1px solid #ccc; 
+    width: 100%; 
+    background-color: rgb(214, 214, 214);
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+
+.Ainda {
+    font-size: 1em;
+    color: rgb(61, 61, 61);
+    margin-top: 1.5em;
+    text-align: center; 
+    transform: translateX(0%);   
+}
+
+button[type="submit"].btn-login2 {
+    text-align: center;
+    background-color: rgb(158, 13, 13); 
+    color: white; 
+    border: none;
+    border-radius: 30px;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 0.75em;
+    width: 20vh;
+    height: 6vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button[type="submit"].btn-login {
+    text-align: center;
+    background-color: transparent; 
+    color: blue; 
+    border: none; 
+    border-radius: 30px; 
+    padding: 0.5em 1em; 
+    font-size: 1em; 
+    cursor: pointer;
+    margin-top: 0.75em;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main ul div {
+    display: flex;
+    flex-direction: column;
+}
+
+main ul div li {
+    margin-bottom: 0.2em; 
+    transform: translateX(0%); 
+}
