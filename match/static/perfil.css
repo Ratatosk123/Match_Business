@@ -1,0 +1,74 @@
+.perfil {
+    margin-left: 8cqmax;
+    margin-right: 80px;
+    margin-top: 40px;
+    border: solid 5px black;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 40px;
+}
+
+.parte-cima {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.perfil-info {
+    display: flex;
+    gap: 50px;
+}
+
+.perfil-img img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.empresa-nome h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+.empresa-nome h3 {
+    font-size: 25px;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.botoes button {
+    background-color: #9a0101;
+    color: white;
+    font-weight: 700;
+    height: 6vh;
+    width: 25vh;
+    border-radius: 5vh;
+}
+
+.parte-baixo {
+    display: flex;
+    margin-top: 100px;
+    padding-top: 30px;
+    justify-content: center;
+    border-top: solid 3px black;
+    gap: 100px;
+    
+}
+
+.dados{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.dados-pessoais , .contato {
+    display: flex;
+    flex-direction: column;
+    transform: translateX(35%); 
+}
+
